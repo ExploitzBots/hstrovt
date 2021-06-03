@@ -5,7 +5,7 @@ import telegram
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-BOT_TOKEN = "YOUR TOKEN HERE"
+BOT_TOKEN = "1800288176:AAEKmiGnBvOa87klpyrTid59CWDgFSXQxaw"
 
 
 
