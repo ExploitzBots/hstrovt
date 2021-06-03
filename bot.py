@@ -1,4 +1,4 @@
-import requests
+Oimport requests
 import json
 from telegram.ext import Updater, CommandHandler,MessageHandler, Filters
 import telegram
@@ -50,7 +50,7 @@ def hotstar(update,context):
             parse_mode="HTML"
         )
             else:
-                update.message.reply_text(f"<b>Invalid❌</b>\n\n{update.message.text}\n\nLogin Unsuccessful\n\n<b>Checked By </b><code>Hotstar Checker Bot</code>",reply_markup=InlineKeyboardMarkup(
+                update.message.reply_text(f"<b>Invalid ❌</b>\n\n{update.message.text}\n\nLogin Unsuccessful\n\n<b>Checked By </b><code>Hotstar Checker Bot</code>",reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
                         text="Join Us",
